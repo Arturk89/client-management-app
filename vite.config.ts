@@ -10,6 +10,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
       layout: path.resolve(__dirname, "./src/layout"),
       common: path.resolve(__dirname, "./src/common"),
+      boot: path.resolve(__dirname, "./src/boot"),
+      features: path.resolve(__dirname, "./src/features"),
+      slices: path.resolve(__dirname, "./src/slices"),
     },
   },
 });
