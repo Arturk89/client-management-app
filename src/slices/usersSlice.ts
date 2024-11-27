@@ -1,4 +1,4 @@
-import { StoreTypes } from '../boot/store'
+import { StoreTypes } from 'boot/store'
 import { StateCreator } from 'zustand'
 
 export interface SingleUserType {

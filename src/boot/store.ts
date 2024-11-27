@@ -1,6 +1,6 @@
-import { createUsersSlice } from '../slices/usersSlice'
+import { create } from 'zustand'
+import { createUsersSlice } from 'slices/usersSlice'
 
-import create from 'zustand'
 
 // store alias
 
