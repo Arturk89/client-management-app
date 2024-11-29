@@ -8,7 +8,19 @@
   height: 100vh;
 }
 
-.main-container-page {
+.app-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+.app-section__appbar {
+  height: 64px;
+  padding: 5px 15px;
+}
+
+.app-section__main-container-page {
   flex: 1;
   padding: 25px 15px 25px 15px;
 }
