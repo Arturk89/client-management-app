@@ -15,11 +15,6 @@
   overflow: hidden;
 }
 
-.app-section__appbar {
-  height: 64px;
-  padding: 5px 15px;
-}
-
 .app-section__main-container-page {
   flex: 1;
   padding: 25px 15px 25px 15px;

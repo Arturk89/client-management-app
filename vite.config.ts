@@ -13,6 +13,7 @@ export default defineConfig({
       boot: path.resolve(__dirname, "./src/boot"),
       features: path.resolve(__dirname, "./src/features"),
       slices: path.resolve(__dirname, "./src/slices"),
+      routes: path.resolve(__dirname, "./src/routes"),
     },
   },
 });

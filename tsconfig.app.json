@@ -14,7 +14,8 @@
       "features": ["features/*"],
       "slices": ["slices/*"],
       "layout/*": ["layout/*"],
-      "common/*": ["common/*"]
+      "common/*": ["common/*"],
+      "routes/*": ["routes/*"],
     },
 
     /* Bundler mode */
