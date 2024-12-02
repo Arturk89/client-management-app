@@ -1,5 +1,6 @@
 import './App.css'
 // import LoginPage from "./features/auth/login-page";
+import { ReactQuery } from './boot/react-query.tsx'
 import MainAppLayout from 'layout/main-app-layout'
 import Sidebar from 'features/sidebar/sidebar'
 import AppSection from 'layout/app-section.tsx'
@@ -9,15 +10,17 @@ import { AppRoutes } from 'routes/app-routes.tsx'
 
 function App() {
   return (
-    <MainAppLayout>
-      <Sidebar />
-      <AppSection>
-        <Appbar />
-        <AppPage>
-          <AppRoutes />
-        </AppPage>
-      </AppSection>
-    </MainAppLayout>
+    <ReactQuery>
+      <MainAppLayout>
+          <Sidebar />
+          <AppSection>
+            <Appbar />
+            <AppPage>
+              <AppRoutes />
+            </AppPage>
+          </AppSection>
+      </MainAppLayout>
+    </ReactQuery>
   )
 }
 
